@@ -8,7 +8,7 @@ then
 fi
 
 cd $LOG_DIR || {
-    echo 'Cannot change to necessary directory.'>&2
+    echo 'Cannot change to necessary directory.'>&2 // 重定向到错误输出
     exit 1
 }
 
